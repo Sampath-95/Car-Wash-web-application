@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User login</title>
+    <link rel="stylesheet" href="usermain.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
+</head>
+<body>
+    <script src="login.js"></script>
+    <div class="top">
+    <H5 class="h5">You are logged in</h5> <br><a class="ref" href="logout.php" style="color:white">logout</a></DIV>
+    <h1 class="h2"><L></L></h1>
+    </div>
+<div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()" >Menu</button><br><br>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#" >Home</a>
+      <a href="#">About</a>
+      <a href="#contact">Contact</a>
+      <a href="index.html" onclick="Validate()">log out</a>
+    </div>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Card-->
+<div class="card shadow mb-5 bg-white rounded">
+
+	<!--Card-Body-->
+	<div class="card-body">
+
+		<!--Card-Title-->
+		<p class="card-title text-center shadow mb-5 rounded">Car Services</p>
+ 
+ <div class="icons text-center">
+<i class="fa fa-taxi fa-2x" aria-hidden="true"></i>
+
+
+ </div>
+
+    <hr>
+
+		<p class="searchText"><strong>Search For Cheap Prices</strong></p>
+
+		<!--First Row-->
+		<div class="row mb-3 mt-3">
+<label class="l">Name:</label>
+			<input class="input" name="name">
+		</div>
+
+
+		<!--Second Row-->
+		<div class="row">
+
+			<div class="col-sm-6">
+				<select class="browser-default custom-select mb-4" id="select">
+        <option value="" disabled="" selected="">At City</option>
+        <option value="1">New Delhi</option>
+        <option value="3">Chennai</option>
+        <option value="2">Mumbai</option>
+        <option value="3">Bangalore</option>
+        
+    </select>
+			</div>
+            <div class="col-sm-6">
+				<select class="browser-default custom-select mb-4" id="select">
+        <option value="" disabled="" selected="">Car Type</option>
+       <option value="1">SUV</option>
+        <option value="2">MPV</option>
+        <option value="3">Safari</option>
+    </select>
+			</div>
+
+
+		</div>
+
+
+		<!--Third Row-->
+		<div class="row">
+
+			<div class="col-sm-6">
+				<input placeholder="&#xf073; Departing" type="text" id="date-picker-example" class="form-control datepicker mb-4" style="font-family:Arial, FontAwesome" >
+			</div>
+
+				<div class="col-sm-6">
+					<input placeholder="&#xf073; Arriving" type="text" id="date-picker-example" class="form-control datepicker" style="font-family:Arial, FontAwesome" >
+			</div>
+
+				</div>
+
+
+				<!--Fourth Row-->
+				<div class="row mt-4">
+
+					<div class="col-sm-6">
+						<select class="browser-default custom-select mb-4" id="select">
+        <option value="" disabled="" selected="">Anytime</option>
+        <option value="1">6:00 AM</option>
+        <option value="2">3:00 PM</option>
+        <option value="3">6:00 PM</option>
+    </select>
+					</div>
+
+					<div class="col-sm-6">
+						<select class="browser-default custom-select mb-4" id="select">
+        <option value="" disabled="" selected="">Anytime</option>
+          <option value="1">6:00 AM</option>
+        <option value="2">3:00 PM</option>
+        <option value="3">6:00 PM</option>
+    </select>
+					</div>
+
+				</div>
+
+
+
+				<a href="#" class="btn btn-primary float-right mt-5">Book Now</a>
+			</div>
+		</div>
+
+    <div class="bottom">
+        <div id="contact" class="left">
+        
+        <b>For any problem contact our customer care</b>
+        <br>bbcustomercare@gmail.com<br>
+        
+        <b>Get our app on</b><br>Play Store 
+        </div>
+    </div>
+</body>

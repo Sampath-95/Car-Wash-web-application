@@ -1,0 +1,76 @@
+body{
+
+    background-image:  url("https://i.pinimg.com/564x/85/3f/2b/853f2b1b1fd51aea57a5af61da8b79be.jpg") ;
+    
+  background-position: center; 
+  background-repeat: no-repeat;
+  background: cover;
+ margin-top: 30%;
+}
+.hero-text {
+        text-align: center;
+        margin-top: 10%;
+        background-color: blueviolet;
+        margin-left:43%;
+        margin-right:40% ;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-radius: 30px;
+        width: 230px;
+        border: none;
+        transition: 0.5s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.hero-text:hover{
+    background-color: rgb(0, 255, 55);
+    transition-duration: 1s;
+    color: blue;
+    animation-iteration-count: 0;
+}
+a:hover{
+    transition-duration: 1s;
+    color: blue;
+    animation-iteration-count: 0;
+}
+.hero-text:focus{
+    animation-iteration-count: infinite;
+}
+a:focus{
+    animation-iteration-count: infinite;
+}
+.hero-text  {
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+a{
+    position: relative;
+    animation-name: example1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes example {
+    0%   {background-color: red;}
+    20%   {background-color: rgb(39, 6, 6);}
+    40%   {background-color: rgb(7, 244, 252);}
+    60%  {background-color: yellow;}
+    80%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  @keyframes example1 {
+    0%   {color: white;}
+    20%   {color: white;}
+    40%   {color: black;}
+    60%  {color: black;}
+    80%  {color: white;}
+    100% {color: white;}
+  }
